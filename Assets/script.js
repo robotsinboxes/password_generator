@@ -16,7 +16,7 @@ var optNumbers = confirm("Click OK to confirm using numbers.");
 var optSymbols = confirm("Click OK to confirm using symbols.");
 console.log(optLowerCase, optUpperCase, optNumbers, optSymbols);
 
-// create strings of all value options
+// create array of all value options
 var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var numbers = '0123456789';
@@ -24,7 +24,7 @@ var symbols = '!@#$%^&*=-_';
 
 // create an empty array to store random values
 var characterOptions = [];
-
+    
 if (optLowerCase == true) {
   characterOptions.push(lowerCase);
 }
